@@ -1,0 +1,184 @@
+{
+  "pageTypes": [],
+  "pages": [
+    {
+      "name": "index.html",
+      "editableElements": "#top .hero__copy .eyebrow :field(name:heroEyebrow, type:string),\n#top .hero__title :field(name:heroTitle, type:string),\n#top .hero__lead :field(name:heroLead, type:text),\n#top .hero__cta .btn-primary :field(name:heroPrimaryCta, type:link),\n#top .hero__cta .btn-ghost :field(name:heroSecondaryCta, type:link),\n#top .hero__trust span:last-child :field(name:heroTrustText, type:string),\n#top .hero__media img :field(name:heroImage, type:image),\n#top .hero__badge :field(name:heroBadge, type:string),\n#top .roasters__row :field(name:roastersList, type:array, options(layout:list)),\n#how-it-works .section-head .eyebrow :field(name:howEyebrow, type:string),\n#how-it-works .section-head h2 :field(name:howTitle, type:string),\n#how-it-works .section-head p :field(name:howText, type:text),\n#how-it-works .steps :field(name:howSteps, type:array, options(layout:list)),\n#plans .section-head .eyebrow :field(name:plansEyebrow, type:string),\n#plans .section-head h2 :field(name:plansTitle, type:string),\n#plans .section-head p :field(name:plansText, type:text),\n#plans .plans :field(name:plansTiers, type:array, options(layout:list)),\n#beans .feature-roast__media img :field(name:beanImage, type:image),\n#beans .feature-roast__copy .eyebrow :field(name:beanEyebrow, type:string),\n#beans .feature-roast__copy h2 :field(name:beanTitle, type:string),\n#beans .feature-roast__copy p :field(name:beanText, type:text),\n#beans .feature-roast__meta :field(name:beanMeta, type:array, options(layout:list)),\n#beans .feature-roast__copy .btn-primary :field(name:beanCta, type:link),\n#reviews .section-head .eyebrow :field(name:reviewsEyebrow, type:string),\n#reviews .section-head h2 :field(name:reviewsTitle, type:string),\n#reviews .section-head p :field(name:reviewsText, type:text),\n#reviews .testimonials :field(name:reviewsList, type:array, options(layout:list)),\n#faq .section-head .eyebrow :field(name:faqEyebrow, type:string),\n#faq .section-head h2 :field(name:faqTitle, type:string),\n#faq .faq :field(name:faqList, type:array, options(layout:list)),\n.cta-band h2 :field(name:ctaTitle, type:string),\n.cta-band p :field(name:ctaText, type:text),\n.cta-band .btn-primary :field(name:ctaButton, type:link)",
+      "content": {
+        "heroEyebrow": "Roasted to order, delivered fresh",
+        "heroTitle": "Skip the shop. Brew better coffee at home.",
+        "heroLead": "Freshly roasted beans from award-winning craft roasters, delivered exactly on your schedule. Stale supermarket coffee is a thing of the past.",
+        "heroPrimaryCta": {
+          "href": "#plans",
+          "text": "Build your plan"
+        },
+        "heroSecondaryCta": {
+          "href": "#beans",
+          "text": "Explore the beans"
+        },
+        "heroTrustText": "Rated 4.9/5 by 12,000+ home baristas",
+        "heroImage": {
+          "src": "https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?auto=format&fit=crop&w=800&q=80",
+          "alt": "A clear glass cup of coffee being poured, showing rich crema"
+        },
+        "heroBadge": "Roasted 2 days ago",
+        "roastersList": [
+          {
+            "tag": "span",
+            "html": "<span>Apex Roastery</span>",
+            "text": "Apex Roastery"
+          },
+          {
+            "tag": "span",
+            "html": "<span>Summit Beans</span>",
+            "text": "Summit Beans"
+          },
+          {
+            "tag": "span",
+            "html": "<span>Craft House</span>",
+            "text": "Craft House"
+          },
+          {
+            "tag": "span",
+            "html": "<span>Northside Roasters</span>",
+            "text": "Northside Roasters"
+          },
+          {
+            "tag": "span",
+            "html": "<span>Origin Lab</span>",
+            "text": "Origin Lab"
+          }
+        ],
+        "howEyebrow": "How it works",
+        "howTitle": "Craft coffee in three simple steps",
+        "howText": "How it works",
+        "howSteps": [
+          {
+            "tag": "article",
+            "html": "<article class=\"step\">\n            <div class=\"step__num\"></div>\n            <h3>Choose your beans</h3>\n            <p>Select from single origins, rich blends, or decaf. Tell us your taste and we'll match you with the perfect roast.</p>\n          </article>",
+            "text": "Choose your beans Select from single origins, rich blends, or decaf. Tell us your taste and we'll match you with the perfect roast."
+          },
+          {
+            "tag": "article",
+            "html": "<article class=\"step\">\n            <div class=\"step__num\"></div>\n            <h3>Set your schedule</h3>\n            <p>Pick how often you want it. Every week, every two weeks, or monthly. You're always in complete control.</p>\n          </article>",
+            "text": "Set your schedule Pick how often you want it. Every week, every two weeks, or monthly. You're always in complete control."
+          },
+          {
+            "tag": "article",
+            "html": "<article class=\"step\">\n            <div class=\"step__num\"></div>\n            <h3>We roast &amp; ship</h3>\n            <p>Your beans are roasted fresh to order and shipped within 24 hours. Free shipping, every single time.</p>\n          </article>",
+            "text": "We roast & ship Your beans are roasted fresh to order and shipped within 24 hours. Free shipping, every single time."
+          },
+          {
+            "tag": "article",
+            "html": "<article class=\"step\">\n            <div class=\"step__num\"></div>\n            <h3>Brew &amp; enjoy</h3>\n            <p>Experience cafe-quality coffee at home. Pause, skip, or cancel your subscription whenever you want.</p>\n          </article>",
+            "text": "Brew & enjoy Experience cafe-quality coffee at home. Pause, skip, or cancel your subscription whenever you want."
+          }
+        ],
+        "plansEyebrow": "Subscription Plans",
+        "plansTitle": "Find your perfect brew",
+        "plansText": "Subscription Plans",
+        "plansTiers": [
+          {
+            "tag": "article",
+            "html": "<article class=\"plan\">\n            <h3 class=\"plan__name\">The Solo</h3>\n            <div class=\"plan__price\">$18<small>/delivery</small></div>\n            <p class=\"plan__desc\">Perfect for the daily drinker. A 12oz bag of fresh beans delivered biweekly.</p>\n            <ul class=\"plan__features\">\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                1 x 12oz bag\n              </li>\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                Free shipping\n              </li>\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                Skip anytime\n              </li>\n            </ul>\n            <a href=\"#\" class=\"btn btn-ghost\">Choose Solo</a>\n          </article>",
+            "text": "The Solo $18/delivery Perfect for the daily drinker. A 12oz bag of fresh beans delivered biweekly. 1 x 12oz bag Free shipping Skip anytime Choose Solo"
+          },
+          {
+            "tag": "article",
+            "html": "<article class=\"plan plan--featured\">\n            <span class=\"plan__tag\">Most Popular</span>\n            <h3 class=\"plan__name\">The Duo</h3>\n            <div class=\"plan__price\">$32<small>/delivery</small></div>\n            <p class=\"plan__desc\">For the couple or the work-from-home pro. Two 12oz bags every two weeks.</p>\n            <ul class=\"plan__features\">\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                2 x 12oz bags\n              </li>\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                Free shipping\n              </li>\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                Mix &amp; match roasts\n              </li>\n            </ul>\n            <a href=\"#\" class=\"btn btn-primary\">Choose Duo</a>\n          </article>",
+            "text": "Most Popular The Duo $32/delivery For the couple or the work-from-home pro. Two 12oz bags every two weeks. 2 x 12oz bags Free shipping Mix & match roasts Choose Duo"
+          },
+          {
+            "tag": "article",
+            "html": "<article class=\"plan\">\n            <h3 class=\"plan__name\">The Family</h3>\n            <div class=\"plan__price\">$48<small>/delivery</small></div>\n            <p class=\"plan__desc\">For the household that runs on coffee. Four 12oz bags delivered weekly or monthly.</p>\n            <ul class=\"plan__features\">\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                4 x 12oz bags\n              </li>\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                Free shipping\n              </li>\n              <li>\n                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                Member-only discounts\n              </li>\n            </ul>\n            <a href=\"#\" class=\"btn btn-ghost\">Choose Family</a>\n          </article>",
+            "text": "The Family $48/delivery For the household that runs on coffee. Four 12oz bags delivered weekly or monthly. 4 x 12oz bags Free shipping Member-only discounts Choose Family"
+          }
+        ],
+        "beanImage": {
+          "src": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=800&q=80",
+          "alt": "Roasted coffee beans close up in a burlap sack"
+        },
+        "beanEyebrow": "Featured This Week",
+        "beanTitle": "Ethiopian Yirgacheffe",
+        "beanText": "Featured This Week",
+        "beanMeta": [
+          {
+            "tag": "div",
+            "html": "<div class=\"meta-item\">\n                <div class=\"meta-item__label\">Roast Level</div>\n                <div class=\"meta-item__value\">Light-Medium</div>\n              </div>",
+            "text": "Roast Level Light-Medium"
+          },
+          {
+            "tag": "div",
+            "html": "<div class=\"meta-item\">\n                <div class=\"meta-item__label\">Tasting Notes</div>\n                <div class=\"meta-item__value\">Jasmine, Citrus, Berry</div>\n              </div>",
+            "text": "Tasting Notes Jasmine, Citrus, Berry"
+          },
+          {
+            "tag": "div",
+            "html": "<div class=\"meta-item\">\n                <div class=\"meta-item__label\">Origin</div>\n                <div class=\"meta-item__value\">Yirgacheffe, Ethiopia</div>\n              </div>",
+            "text": "Origin Yirgacheffe, Ethiopia"
+          },
+          {
+            "tag": "div",
+            "html": "<div class=\"meta-item\">\n                <div class=\"meta-item__label\">Process</div>\n                <div class=\"meta-item__value\">Washed</div>\n              </div>",
+            "text": "Process Washed"
+          }
+        ],
+        "beanCta": {
+          "href": "#plans",
+          "text": "Try this roast"
+        },
+        "reviewsEyebrow": "Happy Mornings",
+        "reviewsTitle": "Loved by home baristas",
+        "reviewsText": "Happy Mornings",
+        "reviewsList": [
+          {
+            "tag": "article",
+            "html": "<article class=\"testimonial\">\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\">★★★★★</div>\n            <p class=\"testimonial__quote\">\"I didn't know coffee could taste like this at home. The subscription is seamless, and the beans are always incredibly fresh. It's completely changed my mornings.\"</p>\n            <div class=\"testimonial__author\">\n              <img class=\"testimonial__avatar\" src=\"https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&amp;fit=crop&amp;w=100&amp;q=80\" alt=\"Portrait of Sarah M. smiling\" loading=\"lazy\">\n              <div>\n                <div class=\"testimonial__name\">Sarah M.</div>\n                <div class=\"testimonial__role\">Duo Subscriber</div>\n              </div>\n            </div>\n          </article>",
+            "text": "★★★★★ \"I didn't know coffee could taste like this at home. The subscription is seamless, and the beans are always incredibly fresh. It's completely changed my mornings.\" Sarah M. Duo Subscriber"
+          },
+          {
+            "tag": "article",
+            "html": "<article class=\"testimonial\">\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\">★★★★★</div>\n            <p class=\"testimonial__quote\">\"As a work-from-home developer, good coffee is non-negotiable. Roastline lets me try different roasters without leaving my desk. The Duo plan is perfect for me.\"</p>\n            <div class=\"testimonial__author\">\n              <img class=\"testimonial__avatar\" src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=100&amp;q=80\" alt=\"Portrait of David L. in a casual setting\" loading=\"lazy\">\n              <div>\n                <div class=\"testimonial__name\">David L.</div>\n                <div class=\"testimonial__role\">Duo Subscriber</div>\n              </div>\n            </div>\n          </article>",
+            "text": "★★★★★ \"As a work-from-home developer, good coffee is non-negotiable. Roastline lets me try different roasters without leaving my desk. The Duo plan is perfect for me.\" David L. Duo Subscriber"
+          },
+          {
+            "tag": "article",
+            "html": "<article class=\"testimonial\">\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\">★★★★★</div>\n            <p class=\"testimonial__quote\">\"We got the Family plan and it's been amazing. My wife loves the light roasts and I love the dark blends. Being able to mix and match is a game changer for us.\"</p>\n            <div class=\"testimonial__author\">\n              <img class=\"testimonial__avatar\" src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&amp;fit=crop&amp;w=100&amp;q=80\" alt=\"Portrait of Emma R. outdoors\" loading=\"lazy\">\n              <div>\n                <div class=\"testimonial__name\">Emma R.</div>\n                <div class=\"testimonial__role\">Family Subscriber</div>\n              </div>\n            </div>\n          </article>",
+            "text": "★★★★★ \"We got the Family plan and it's been amazing. My wife loves the light roasts and I love the dark blends. Being able to mix and match is a game changer for us.\" Emma R. Family Subscriber"
+          }
+        ],
+        "faqEyebrow": "Questions?",
+        "faqTitle": "Frequently asked",
+        "faqList": [
+          {
+            "tag": "div",
+            "html": "<div class=\"faq__item\" data-open=\"false\">\n            <button class=\"faq__q\" aria-expanded=\"false\" aria-controls=\"faq-a-1\">\n              Can I pause or cancel my subscription?\n              <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line></svg>\n            </button>\n            <div class=\"faq__a\" id=\"faq-a-1\">\n              <div class=\"faq__a-inner\">\n                <p>Absolutely. You can pause, skip a delivery, or cancel your plan at any time through your account dashboard. No hidden fees, no hassle.</p>\n              </div>\n            </div>\n          </div>",
+            "text": "Can I pause or cancel my subscription? Absolutely. You can pause, skip a delivery, or cancel your plan at any time through your account dashboard. No hidden fees, no hassle."
+          },
+          {
+            "tag": "div",
+            "html": "<div class=\"faq__item\" data-open=\"false\">\n            <button class=\"faq__q\" aria-expanded=\"false\" aria-controls=\"faq-a-2\">\n              When are the beans roasted?\n              <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line></svg>\n            </button>\n            <div class=\"faq__a\" id=\"faq-a-2\">\n              <div class=\"faq__a-inner\">\n                <p>Your beans are roasted fresh to order within 24 hours of shipping. We never ship beans older than 5 days to ensure peak flavor.</p>\n              </div>\n            </div>\n          </div>",
+            "text": "When are the beans roasted? Your beans are roasted fresh to order within 24 hours of shipping. We never ship beans older than 5 days to ensure peak flavor."
+          },
+          {
+            "tag": "div",
+            "html": "<div class=\"faq__item\" data-open=\"false\">\n            <button class=\"faq__q\" aria-expanded=\"false\" aria-controls=\"faq-a-3\">\n              Is shipping really free?\n              <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line></svg>\n            </button>\n            <div class=\"faq__a\" id=\"faq-a-3\">\n              <div class=\"faq__a-inner\">\n                <p>Yes! Shipping is entirely free on all subscription orders within the continental United States.</p>\n              </div>\n            </div>\n          </div>",
+            "text": "Is shipping really free? Yes! Shipping is entirely free on all subscription orders within the continental United States."
+          },
+          {
+            "tag": "div",
+            "html": "<div class=\"faq__item\" data-open=\"false\">\n            <button class=\"faq__q\" aria-expanded=\"false\" aria-controls=\"faq-a-4\">\n              Can I choose which beans I get?\n              <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line></svg>\n            </button>\n            <div class=\"faq__a\" id=\"faq-a-4\">\n              <div class=\"faq__a-inner\">\n                <p>Definitely. You can curate your own box from our selection of roasts, or let us surprise you with our curator's choice based on your taste profile.</p>\n              </div>\n            </div>\n          </div>",
+            "text": "Can I choose which beans I get? Definitely. You can curate your own box from our selection of roasts, or let us surprise you with our curator's choice based on your taste profile."
+          }
+        ],
+        "ctaTitle": "Start brewing better today",
+        "ctaText": "Join 12,000+ subscribers who upgraded their mornings. Get 50% off your first bag when you start a plan today.",
+        "ctaButton": {
+          "href": "#plans",
+          "text": "Claim your discount"
+        }
+      }
+    }
+  ],
+  "vocabularies": {}
+}
