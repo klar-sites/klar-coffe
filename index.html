@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roastline — Fresh Craft Coffee Subscriptions</title>
+  <meta name="description" content="Roastline delivers freshly roasted, craft coffee beans to your door. Choose your plan, skip the shop, and brew better coffee at home.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#top" class="brand">
+        <svg class="brand__mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M17 8h1a4 4 0 0 1 0 8h-1"></path>
+          <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+          <line x1="6" y1="2" x2="6" y2="4"></line>
+          <line x1="10" y1="2" x2="10" y2="4"></line>
+          <line x1="14" y1="2" x2="14" y2="4"></line>
+        </svg>
+        Roastline
+      </a>
+      <nav class="nav" id="nav" data-open="false">
+        <div class="nav__links">
+          <a href="#how-it-works">How it works</a>
+          <a href="#plans">Plans</a>
+          <a href="#beans">Our Beans</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="nav__actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <svg id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          <a href="#plans" class="btn btn-primary">Get Started</a>
+          <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <a href="#how-it-works">How it works</a>
+          <a href="#plans">Plans</a>
+          <a href="#beans">Our Beans</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Roasted to order, delivered fresh</p>
+            <h1 class="hero__title">Skip the shop. <em>Brew better</em> coffee at home.</h1>
+            <p class="hero__lead">Freshly roasted beans from award-winning craft roasters, delivered exactly on your schedule. Stale supermarket coffee is a thing of the past.</p>
+            <div class="hero__cta">
+              <a href="#plans" class="btn btn-primary btn-lg">Build your plan</a>
+              <a href="#beans" class="btn btn-ghost btn-lg">Explore the beans</a>
+            </div>
+            <div class="hero__trust">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span>Rated 4.9/5 by 12,000+ home baristas</span>
+            </div>
+          </div>
+          <div class="hero__media">
+            <img src="https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A clear glass cup of coffee being poured, showing rich crema" loading="eager">
+            <div class="hero__badge">
+              <span class="dot"></span>
+              Roasted 2 days ago
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roasters -->
+    <section class="roasters">
+      <div class="container">
+        <div class="roasters__row">
+          <span>Apex Roastery</span>
+          <span>Summit Beans</span>
+          <span>Craft House</span>
+          <span>Northside Roasters</span>
+          <span>Origin Lab</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2>Craft coffee in three simple steps</h2>
+          <p>No more settling for less. Get fresh, perfectly roasted coffee delivered right when you need it.</p>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <div class="step__num"></div>
+            <h3>Choose your beans</h3>
+            <p>Select from single origins, rich blends, or decaf. Tell us your taste and we'll match you with the perfect roast.</p>
+          </article>
+          <article class="step">
+            <div class="step__num"></div>
+            <h3>Set your schedule</h3>
+            <p>Pick how often you want it. Every week, every two weeks, or monthly. You're always in complete control.</p>
+          </article>
+          <article class="step">
+            <div class="step__num"></div>
+            <h3>We roast &amp; ship</h3>
+            <p>Your beans are roasted fresh to order and shipped within 24 hours. Free shipping, every single time.</p>
+          </article>
+          <article class="step">
+            <div class="step__num"></div>
+            <h3>Brew &amp; enjoy</h3>
+            <p>Experience cafe-quality coffee at home. Pause, skip, or cancel your subscription whenever you want.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans -->
+    <section class="section section--alt" id="plans">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Subscription Plans</p>
+          <h2>Find your perfect brew</h2>
+          <p>Pause, skip, or cancel anytime. Shipping is always included.</p>
+        </div>
+        <div class="plans">
+          <article class="plan">
+            <h3 class="plan__name">The Solo</h3>
+            <div class="plan__price">$18<small>/delivery</small></div>
+            <p class="plan__desc">Perfect for the daily drinker. A 12oz bag of fresh beans delivered biweekly.</p>
+            <ul class="plan__features">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                1 x 12oz bag
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Free shipping
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Skip anytime
+              </li>
+            </ul>
+            <a href="#" class="btn btn-ghost">Choose Solo</a>
+          </article>
+
+          <article class="plan plan--featured">
+            <span class="plan__tag">Most Popular</span>
+            <h3 class="plan__name">The Duo</h3>
+            <div class="plan__price">$32<small>/delivery</small></div>
+            <p class="plan__desc">For the couple or the work-from-home pro. Two 12oz bags every two weeks.</p>
+            <ul class="plan__features">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                2 x 12oz bags
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Free shipping
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Mix &amp; match roasts
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary">Choose Duo</a>
+          </article>
+
+          <article class="plan">
+            <h3 class="plan__name">The Family</h3>
+            <div class="plan__price">$48<small>/delivery</small></div>
+            <p class="plan__desc">For the household that runs on coffee. Four 12oz bags delivered weekly or monthly.</p>
+            <ul class="plan__features">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                4 x 12oz bags
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Free shipping
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Member-only discounts
+              </li>
+            </ul>
+            <a href="#" class="btn btn-ghost">Choose Family</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Beans -->
+    <section class="section" id="beans">
+      <div class="container">
+        <div class="feature-roast">
+          <div class="feature-roast__media">
+            <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Roasted coffee beans close up in a burlap sack" loading="lazy">
+          </div>
+          <div class="feature-roast__copy">
+            <p class="eyebrow">Featured This Week</p>
+            <h2>Ethiopian Yirgacheffe</h2>
+            <p>Bright, floral, and bursting with notes of jasmine, bergamot, and blueberry. Sourced from smallholder farms in the Gedeo Zone and roasted to a perfect light-medium profile to highlight its natural sparkle.</p>
+            <div class="feature-roast__meta">
+              <div class="meta-item">
+                <div class="meta-item__label">Roast Level</div>
+                <div class="meta-item__value">Light-Medium</div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-item__label">Tasting Notes</div>
+                <div class="meta-item__value">Jasmine, Citrus, Berry</div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-item__label">Origin</div>
+                <div class="meta-item__value">Yirgacheffe, Ethiopia</div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-item__label">Process</div>
+                <div class="meta-item__value">Washed</div>
+              </div>
+            </div>
+            <a href="#plans" class="btn btn-primary">Try this roast</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section--alt" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Happy Mornings</p>
+          <h2>Loved by home baristas</h2>
+          <p>Join thousands of coffee lovers who have upgraded their morning routine.</p>
+        </div>
+        <div class="testimonials">
+          <article class="testimonial">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial__quote">"I didn't know coffee could taste like this at home. The subscription is seamless, and the beans are always incredibly fresh. It's completely changed my mornings."</p>
+            <div class="testimonial__author">
+              <img class="testimonial__avatar" src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Portrait of Sarah M. smiling" loading="lazy">
+              <div>
+                <div class="testimonial__name">Sarah M.</div>
+                <div class="testimonial__role">Duo Subscriber</div>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial__quote">"As a work-from-home developer, good coffee is non-negotiable. Roastline lets me try different roasters without leaving my desk. The Duo plan is perfect for me."</p>
+            <div class="testimonial__author">
+              <img class="testimonial__avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Portrait of David L. in a casual setting" loading="lazy">
+              <div>
+                <div class="testimonial__name">David L.</div>
+                <div class="testimonial__role">Duo Subscriber</div>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial__quote">"We got the Family plan and it's been amazing. My wife loves the light roasts and I love the dark blends. Being able to mix and match is a game changer for us."</p>
+            <div class="testimonial__author">
+              <img class="testimonial__avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Portrait of Emma R. outdoors" loading="lazy">
+              <div>
+                <div class="testimonial__name">Emma R.</div>
+                <div class="testimonial__role">Family Subscriber</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="section-head text-center" style="margin-inline: auto;">
+          <p class="eyebrow">Questions?</p>
+          <h2>Frequently asked</h2>
+        </div>
+        <div class="faq">
+          <div class="faq__item" data-open="false">
+            <button class="faq__q" aria-expanded="false" aria-controls="faq-a-1">
+              Can I pause or cancel my subscription?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="faq__a" id="faq-a-1">
+              <div class="faq__a-inner">
+                <p>Absolutely. You can pause, skip a delivery, or cancel your plan at any time through your account dashboard. No hidden fees, no hassle.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq__item" data-open="false">
+            <button class="faq__q" aria-expanded="false" aria-controls="faq-a-2">
+              When are the beans roasted?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="faq__a" id="faq-a-2">
+              <div class="faq__a-inner">
+                <p>Your beans are roasted fresh to order within 24 hours of shipping. We never ship beans older than 5 days to ensure peak flavor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq__item" data-open="false">
+            <button class="faq__q" aria-expanded="false" aria-controls="faq-a-3">
+              Is shipping really free?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="faq__a" id="faq-a-3">
+              <div class="faq__a-inner">
+                <p>Yes! Shipping is entirely free on all subscription orders within the continental United States.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq__item" data-open="false">
+            <button class="faq__q" aria-expanded="false" aria-controls="faq-a-4">
+              Can I choose which beans I get?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="faq__a" id="faq-a-4">
+              <div class="faq__a-inner">
+                <p>Definitely. You can curate your own box from our selection of roasts, or let us surprise you with our curator's choice based on your taste profile.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Band -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band">
+          <h2>Start brewing better today</h2>
+          <p>Join 12,000+ subscribers who upgraded their mornings. Get 50% off your first bag when you start a plan today.</p>
+          <a href="#plans" class="btn btn-primary btn-lg">Claim your discount</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col footer__about">
+          <a href="#top" class="brand" style="margin-bottom: var(--space-s); display: inline-flex;">
+            <svg class="brand__mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17 8h1a4 4 0 0 1 0 8h-1"></path>
+              <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+              <line x1="6" y1="2" x2="6" y2="4"></line>
+              <line x1="10" y1="2" x2="10" y2="4"></line>
+              <line x1="14" y1="2" x2="14" y2="4"></line>
+            </svg>
+            Roastline
+          </a>
+          <p>Freshly roasted craft coffee delivered to your door. We partner with top roasters to bring the best beans to your morning cup.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Coffee</h4>
+          <ul>
+            <li><a href="#beans">Our Beans</a></li>
+            <li><a href="#plans">Subscription</a></li>
+            <li><a href="#">Gift Cards</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#">Our Roasters</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">My Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2023 Roastline Coffee Co. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+  </body>
+</html>
